@@ -21,7 +21,10 @@ This project analyzes the Stack Overflow developer survey with a focus on salary
 
 ## Problem
 
-The project asks how developer compensation and related survey responses vary across work modes, education groups, and developer roles.
+This analysis uses the 2025 Stack Overflow Developer Survey (N=20,407) to investigate two questions:
+
+> 1. Distinguishing the economic implications of remote versus hybrid job modes in the technology sector.
+> 2. Evaluating the effect of education levels on income in North America (USA and Canada).
 
 ## Data
 
@@ -59,4 +62,3 @@ The project asks how developer compensation and related survey responses vary ac
 ## Notes
 
 This repository is organized as a compact portfolio piece rather than an assignment dump. The README surfaces the core analytical story first, with the notebook and report kept alongside the visuals that best summarize the results.
-
