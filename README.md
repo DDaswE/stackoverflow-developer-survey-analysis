@@ -8,7 +8,7 @@ This project analyzes the Stack Overflow developer survey with a focus on salary
 
 ## Problem
 
-The assignment objective is to explore the 2025 Stack Overflow Developer Survey to understand:
+This project explores the 2025 Stack Overflow Developer Survey to understand:
 
 > 1. distinctions between remote and hybrid job modes in technology and information sectors; and
 > 2. the effects of education on income level.
