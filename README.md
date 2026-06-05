@@ -2,29 +2,18 @@
 
 Survey-based analysis of developer compensation, work mode, education, and role patterns using the Stack Overflow developer survey.
 
-## Preview
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="./preview_salary_mode.png" alt="Salary by work mode" width="100%">
-    </td>
-    <td width="50%">
-      <img src="./preview_bootstrap_medians.png" alt="Bootstrap distribution of median differences" width="100%">
-    </td>
-  </tr>
-</table>
-
 ## Project summary
 
 This project analyzes the Stack Overflow developer survey with a focus on salary distributions, work mode differences, education level effects, and role-based summaries. The notebook combines exploratory analysis with statistical inference, including bootstrap-based confidence intervals and hypothesis tests.
 
 ## Problem
 
-This analysis uses the 2025 Stack Overflow Developer Survey (N=20,407) to investigate two questions:
+The assignment objective is to explore the 2025 Stack Overflow Developer Survey to understand:
 
-> 1. Distinguishing the economic implications of remote versus hybrid job modes in the technology sector.
-> 2. Evaluating the effect of education levels on income in North America (USA and Canada).
+> 1. distinctions between remote and hybrid job modes in technology and information sectors; and
+> 2. the effects of education on income level.
+
+The required analysis includes EDA, descriptive statistics, two-sample salary comparisons between hybrid and remote workers, bootstrap inference, confidence intervals, median testing, and ANOVA-based education-level comparisons for North American respondents.
 
 ## Data
 
@@ -42,13 +31,14 @@ This analysis uses the 2025 Stack Overflow Developer Survey (N=20,407) to invest
 - ANOVA and bootstrap hypothesis testing
 - category-level comparisons across developer groups
 
-## Key outputs
+## Achievements
 
-- salary comparisons between hybrid and remote work modes
-- bootstrap distributions of mean and median differences
-- developer-type salary comparisons
-- education-level salary analysis
-- ANOVA significance testing for grouped compensation differences
+- analyzed 20,407 cleaned Stack Overflow survey responses with salary and age anomaly checks
+- handled extreme salary values before inference using percentile-based trimming or winsorization depending on the statistical test
+- found a statistically robust salary difference between remote and hybrid workers after trimming, with remote workers earning about USD 15,231 more on average
+- validated the remote-versus-hybrid salary result using Welch's t-test, bootstrap confidence intervals, and Mood's median test
+- showed that North American salary means differ across Bachelor's, Master's, and Professional degree groups using ANOVA and bootstrap validation
+- practiced concise statistical reporting with visual evidence under a strict report-length constraint
 
 ## Repository structure
 
@@ -56,9 +46,7 @@ This analysis uses the 2025 Stack Overflow Developer Survey (N=20,407) to invest
 | --- | --- |
 | `xu_1007901512_assignment1.ipynb` | Main analysis notebook |
 | `xu_1007901512_assignment1.pdf` | Exported report version of the notebook |
-| `preview_salary_mode.png` | Visual preview for salary by work mode |
-| `preview_bootstrap_medians.png` | Visual preview for bootstrap median comparison |
 
-## Notes
+## Skills practiced
 
-This repository is organized as a compact portfolio piece rather than an assignment dump. The README surfaces the core analytical story first, with the notebook and report kept alongside the visuals that best summarize the results.
+This project practices survey-data analysis, robust outlier handling, parametric and non-parametric hypothesis testing, bootstrap simulation, confidence-interval construction, ANOVA, and evidence-based statistical writing.
