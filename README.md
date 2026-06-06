@@ -2,6 +2,10 @@
 
 Survey-based analysis of developer compensation, work mode, education, and role patterns using the Stack Overflow developer survey.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sYzPCgMBImHQNaBcpLvLPBqCjMkwCSCN?usp=sharing) [GitHub Repo](https://github.com/DDaswE/stackoverflow-developer-survey-analysis)
+
+> Opening this notebook in Colab creates a working copy. The source notebook in GitHub remains unchanged unless a user already has write access to this repository.
+
 ## Project summary
 
 This project analyzes the Stack Overflow developer survey with a focus on salary distributions, work mode differences, education level effects, and role-based summaries. The notebook combines exploratory analysis with statistical inference, including bootstrap-based confidence intervals and hypothesis tests.
